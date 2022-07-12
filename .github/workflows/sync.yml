@@ -22,6 +22,7 @@ jobs:
         ref: patch-1
         # REQUIRED if your upstream repo is private (see wiki)
         persist-credentials: false
+        fetch-depth: 0
 
     # REQUIRED step
     # Step 2: run the sync action
